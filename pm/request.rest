@@ -1,0 +1,29 @@
+POST  http://localhost:4000/pm/find
+Content-Type: application/json
+
+{
+    "m":"items",
+    "f":{"storeID":1000,"name":"apple"}
+    
+}
+
+
+    POST  http://localhost:4000/update
+    Content-Type: application/json
+
+    {
+        "m":"items",
+        "f":{"storeID":1000,"name":"apple"},
+        "u":{"price":85}
+    }
+###
+
+POST  http://localhost:4000/save
+Content-Type: application/json
+
+{
+    "m":"items",
+    "name":"grape",
+    "id":1002,
+    "price":90
+}

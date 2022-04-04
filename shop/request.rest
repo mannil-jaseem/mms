@@ -1,0 +1,23 @@
+post http://localhost:3000/shop/
+Content-Type: application/json
+
+{
+    "name":"niyas",
+    "password":"niy"
+}
+
+###
+
+GET http://localhost:3000/shop/prices
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoibml5YXMiLCJpYXQiOjE2NDU0MjUyNjd9.XpGFYOtI-B0aeQhPgqIHiYNuVPfgOsr6px6zb-eJWU4
+###
+
+POST   http://localhost:3000/shop/save
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoic2FoYWwiLCJpYXQiOjE2NDUxNzQ4ODh9.93XhBLBwc0zZLsZ6l6wA3w2IQ1Kehg09dNbDKkfTkMs
+
+
+{
+    "name":"watermelon",
+    "price":40
+}
